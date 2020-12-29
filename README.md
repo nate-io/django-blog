@@ -1,11 +1,8 @@
 ![Django Logo](https://static.djangoproject.com/img/logos/django-logo-negative.png)
 # Django Blog
-<hr style='border:none; height:1px; background-color:rgb(16,62,46);'>
 Project implementing a full blog app using only Django.
 
-
 ## Python Env
-<hr style='border:none; height:1px; background-color:rgb(16,62,46);'>
 
 ### Virtual Env Management
 This project stores the virtual env config in the directory itself with: `python3 -m venv venv`.
