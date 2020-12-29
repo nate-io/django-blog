@@ -1,16 +1,19 @@
 ![Django Logo](https://static.djangoproject.com/img/logos/django-logo-negative.png)
 # Django Blog
+<hr style='border:none; height:1px; background-color:rgb(16,62,46);'>
 Project implementing a full blog app using only Django.
 
 
-### Python Env
-This project stores the virtual env config in the directory itself with: 
+## Python Env
+<hr style='border:none; height:1px; background-color:rgb(16,62,46);'>
 
-`python3 -m venv venv`.
+### Virtual Env Management
+This project stores the virtual env config in the directory itself with: `python3 -m venv venv`.
 
-Shell alias I use to activate in my .zshrc:
-
-```alias activate-env='source venv/bin/activate'```
-
+Shell alias I use to activate in my .zshrc: ```alias activate-env='source venv/bin/activate'```
 
 A simple ```deactivate``` switches it back off.
+
+### Dependency Management
+
+Run ```pip list > requirements.txt``` to autogenerate depednecy list for others.
