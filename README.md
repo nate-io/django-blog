@@ -14,3 +14,8 @@ A simple ```deactivate``` switches it back off.
 ### Dependency Management
 
 Run ```pip list > requirements.txt``` to autogenerate depednecy list for others.
+
+
+### Commands
+
+* ```python manage.py runserver``` start dev server
