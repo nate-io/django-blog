@@ -13,7 +13,7 @@ A simple ```deactivate``` switches it back off.
 
 ### Dependency Management
 
-Run ```pip list > requirements.txt``` to autogenerate depednecy list for others.
+Run ```pip list > requirements.txt``` to auto-generate dependency list for others.
 
 
 ### Commands
