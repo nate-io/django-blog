@@ -20,3 +20,6 @@ Run ```pip list > requirements.txt``` to auto-generate dependency list for other
 
 * ```python manage.py runserver``` start dev server
 * ```python manage.py startapp <APP_NAME>``` add app to project
+* ```python manage.py migrate``` applies db migrations
+* ```python manage.py makemigrations``` create new db migrations based on model changes
+* ```python manage.py createsuperuser``` creat an admin user (prompts for details)
