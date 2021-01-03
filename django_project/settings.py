@@ -33,7 +33,13 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    # handles blog posts
     'blog.apps.BlogConfig',
+    # handles user registration
+    'users.apps.UsersConfig',
+    # nice form styling lib
+    'crispy_forms',
+    # defaults
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -121,3 +127,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
 STATIC_URL = '/static/'
+
+# override default crispy form template pack
+CRISPY_TEMPLATE_PACK = 'bootstrap4'

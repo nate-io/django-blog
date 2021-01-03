@@ -14,6 +14,7 @@ A simple ```deactivate``` switches it back off.
 ### Dependency Management
 
 Run ```pip list > requirements.txt``` to auto-generate dependency list for others.
+Run ```pip install -r requirements.txt``` to install deps (activate virtual env first).
 
 
 ### Commands
