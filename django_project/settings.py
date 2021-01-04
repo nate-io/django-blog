@@ -134,8 +134,6 @@ MEDIA_URL = '/media/'
 # override default crispy form template pack
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-# override user login redirect
+# override user login redirects
 LOGIN_REDIRECT_URL = 'blog-home'
-
-# override login redirect for login protected routes
 LOGIN_URL = 'login'
