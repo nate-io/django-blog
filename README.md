@@ -23,4 +23,4 @@ Run ```pip install -r requirements.txt``` to install deps (activate virtual env 
 * ```python manage.py startapp <APP_NAME>``` add app to project
 * ```python manage.py migrate``` applies db migrations
 * ```python manage.py makemigrations``` create new db migrations based on model changes
-* ```python manage.py createsuperuser``` creat an admin user (prompts for details)
+* ```python manage.py createsuperuser``` create an admin user (prompts for details)

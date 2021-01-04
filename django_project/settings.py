@@ -130,3 +130,9 @@ STATIC_URL = '/static/'
 
 # override default crispy form template pack
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+# override user login redirect
+LOGIN_REDIRECT_URL = 'blog-home'
+
+# override login redirect for login protected routes
+LOGIN_URL = 'login'
