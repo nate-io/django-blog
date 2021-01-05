@@ -130,3 +130,6 @@ dmypy.json
 
 # local notes 
 .notes
+
+# user profile pic static files
+media/
